@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio/music player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="audio_controls.js"></script>
+</head>
+<body>
+    <div >
+        <h1>audio player</h1>
+        select a mp3 soudtrack you'd like to play
+    </div>
+    <div>
+        <input type="file"  id="file">
+        <button onclick="displayFile()">play</button>
+    </div>
+    <div>
+        <audio src="./jpt.mp3"  id="audio" controls></audio>
+    </div>
+</body>
+</html>
